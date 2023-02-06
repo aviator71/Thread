@@ -15,6 +15,6 @@ class Fruits extends Thread {
     }
 
     private String[]/* ??? **/ getFruits() {
-        return new String[] {"orange", "apple", "plum"};
+        return new String[]{"orange", "apple", "plum"};
     }
 }

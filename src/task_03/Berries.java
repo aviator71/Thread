@@ -1,7 +1,7 @@
 package task_03;
 
 // Исправьте ошибки.
-class Berries extends Thread{
+class Berries extends Thread {
 
     public Berries(Thread group, String name) {
         super(group, name);

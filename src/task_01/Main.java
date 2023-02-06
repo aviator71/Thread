@@ -15,7 +15,7 @@ public class Main {
     }
 
     private static Robot/* ??? **/ getRobot(String name) {
-       return new Robot(name);
+        return new Robot(name);
     }
 
     private static void getRobotInfo(Robot robot) {

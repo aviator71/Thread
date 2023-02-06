@@ -6,7 +6,8 @@ public class Main {
 
     public static void main(String[] arg) throws InterruptedException {
 
-        /* ??? **/Fruits fruits = new Fruits();
+        /* ??? **/
+        Fruits fruits = new Fruits();
         fruits.start();
         fruits.join();/* метод ждет пока этот поток умрет, и подсоединяет другой поток **/
 

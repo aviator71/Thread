@@ -2,7 +2,7 @@ package task_03;
 
 // Вывод групп товаров.
 // Исправьте ошибки.
-public class Main extends Thread{
+public class Main extends Thread {
 
     public static void main(String[] args) throws InterruptedException {
         ThreadGroup group = new ThreadGroup("Thread group");

@@ -1,7 +1,7 @@
 package task_04;
 
 // Исправьте ошибки.
-class Fruits extends Thread{
+class Fruits extends Thread {
 
     public void run() {
         for (String fruit : getFruits()) {
@@ -15,6 +15,6 @@ class Fruits extends Thread{
     }
 
     private String[]/* ??? **/ getFruits() {
-        return new String[] {"orange", "apple", "plum"};
+        return new String[]{"orange", "apple", "plum"};
     }
 }

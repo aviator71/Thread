@@ -1,7 +1,7 @@
 package task_03;
 
 // Исправьте ошибки.
-class Veges extends Thread{
+class Veges extends Thread {
 
     public Veges(Thread group, String name) {
         super(group, name);
